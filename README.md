@@ -14,6 +14,11 @@
 -[Implementation](Implementation)
 
 
+-[Key Points](Key Points)
+
+
+-[Future Improvements](Future Improvements)
+
 -[Conclusion](Conclusion)
 
 * * *
@@ -34,3 +39,10 @@ You can download the dataset [here](https://www.kaggle.com/datasets/karakaggle/k
 - **CNN Model**: The project utilizes a custom CNN architecture designed to handle the binary classification task. Convolutional layers are used to extract features from images, and pooling layers help reduce dimensionality.
 - **Training and Validation**: The dataset is split into training and validation sets. During the training process, the model’s performance is evaluated at each epoch, and metrics such as accuracy and loss are used to monitor its progress.
 - **Testing and Results**: After training, the model is evaluated on a separate test set. The performance is measured using accuracy, confusion matrix, and other relevant evaluation metrics.
+
+
+
+# Implementation
+
+This CNN model consists of multiple convolutional layers followed by pooling layers, designed to capture spatial hierarchies in the images. These layers are followed by fully connected layers that map the extracted features to the final binary classification output. The activation function used in the final layer is tailored for binary classification.
+
