@@ -25,7 +25,7 @@ This project aim is to build a Convolutional Neural Network (CNN) to classify im
 
 
 # Dataset
-You can download the dataset [here](https://www.kaggle.com/datasets/karakaggle/kaggle-cat-vs-dog-dataset).The dataset used in this project consists of thousands of labeled images of cats and dogs. The images are divided into training, validation, and test sets. This allows the model to learn from a large number of examples while also validating its performance on unseen data.
+You can download the dataset [here](https://www.kaggle.com/datasets/salader/dogs-vs-cats).The dataset used in this project consists of thousands of labeled images of cats and dogs. The images are divided into training, validation, and test sets. This allows the model to learn from a large number of examples while also validating its performance on unseen data.
 
 
 # Features
