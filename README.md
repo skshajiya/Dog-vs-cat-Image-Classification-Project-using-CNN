@@ -14,11 +14,6 @@
 -[Implementation](Implementation)
 
 
--[Key Points](Key Points)
-
-
--[Future Improvements](Future Improvements)
-
 -[Conclusion](Conclusion)
 
 * * *
@@ -45,4 +40,20 @@ You can download the dataset [here](https://www.kaggle.com/datasets/karakaggle/k
 # Implementation
 
 This CNN model consists of multiple convolutional layers followed by pooling layers, designed to capture spatial hierarchies in the images. These layers are followed by fully connected layers that map the extracted features to the final binary classification output. The activation function used in the final layer is tailored for binary classification.
+
+## Key Points
+- **Deep Learning for Image Classification**: This project highlights the use of CNNs for image classification tasks, specifically in distinguishing between two classes of images.
+- **Model Generalization**: Through data augmentation and regularization techniques, the model is trained to generalize well to unseen data, reducing overfitting.
+- **Evaluation Metrics**: The project demonstrates how to evaluate a model's performance using metrics like accuracy, precision, recall, and confusion matrices.
+
+## Future Improvements
+While the model performs well, there are several avenues for further improvement:
+- **Hyperparameter Tuning**: Experimenting with different model architectures and hyperparameters could yield better performance.
+- **Transfer Learning**: Pre-trained models such as VGG16 or ResNet could be used to further enhance classification accuracy.
+- **Advanced Data Augmentation**: Incorporating more advanced data augmentation techniques could improve the model's robustness.
+
+
+## Conclusion
+
+This project serves as a practical example of applying CNNs to solve an image classification problem. By carefully preprocessing the data, designing an effective model, and evaluating its performance, this project offers a solid foundation for further exploration in deep learning applications related to image recognition.
 
